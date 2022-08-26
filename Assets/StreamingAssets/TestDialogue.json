@@ -1,0 +1,106 @@
+{
+  "id": "PASSWORD_SCENE",
+  "dialogueItems": [
+    {
+      "id": "START",
+      "name": "Bruce",
+      "dialogue": "Password please",
+      "options": [
+        {
+          "text": "Grass",
+          "linkID": "PASSWORD_GRASS"
+        },
+        {
+          "text": "Graphs",
+          "linkID": "PASSWORD_GRAPHS"
+        },
+        {
+          "text": "Tree",
+          "linkID": "PASSWORD_TREE"
+        },
+        {
+          "text": "Bribe Bruce",
+          "linkID": "BRIBE",
+          "requiredItem": "beer"
+        }
+      ]
+    },
+    {
+      "id": "PASSWORD_GRASS",
+      "name": "Player",
+      "dialogue": "The password is... Grass",
+      "options": [
+        {
+          "text": "Next",
+          "linkID": "NPC_CORRECT"
+        }
+      ]
+    },
+    {
+      "id": "PASSWORD_GRAPHS",
+      "name": "Player",
+      "dialogue": "I think the password is Graphs",
+      "options": [
+        {
+          "text": "Next",
+          "linkID": "NPC_WRONG"
+        }
+      ]
+    },
+    {
+      "id": "PASSWORD_TREE",
+      "name": "Player",
+      "dialogue": "I am certain the password is Tree",
+      "options": [
+        {
+          "text": "Next",
+          "linkID": "NPC_WRONG"
+        }
+      ]
+    },
+    {
+      "id": "BRIBE",
+      "name": "Player",
+      "dialogue": "Let me in and I'll give you this beer.",
+      "options": [
+        {
+          "text": "Next",
+          "linkID": "END"
+        }
+      ]
+    },
+    {
+      "id": "NPC_CORRECT",
+      "name": "Bruce",
+      "dialogue": "You may proceed",
+      "options": [
+        {
+          "text": "Next",
+          "linkID": "END"
+        }
+      ]
+    },
+    {
+      "id": "NPC_WRONG",
+      "name": "Bruce",
+      "dialogue": "You shall not pass!",
+      "options": [
+        {
+          "text": "Next",
+          "linkID": "START"
+        }
+      ]
+    },
+    {
+      "id": "END",
+      "name": "Player",
+      "dialogue": "I'm in! I didn't think it would be that easy.",
+      "options": [
+        {
+          "text": "Continue",
+          "linkID": "CLOSE"
+        }
+      ]
+    }
+  ]
+}

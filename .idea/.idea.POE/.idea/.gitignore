@@ -1,0 +1,13 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/projectSettingsUpdater.xml
+/modules.xml
+/contentModel.xml
+/.idea.POE.iml
+# Datasource local storage ignored files
+/../../../../../../../../../../:\Second Year\Semester 2\GADE\POE\Task1\POE\.idea\.idea.POE\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

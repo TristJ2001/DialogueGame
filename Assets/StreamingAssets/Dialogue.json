@@ -1,0 +1,559 @@
+﻿{
+  "dialogueSets" : [
+    {
+      "convoId": "HumphreyConvo1",
+      "dialogueItems" : [
+        {
+          "id" : "HumphreyConvo1_line0",
+          "speaker" : "Humphrey",
+          "type" : "noReply",
+          "name" : "Guard",
+          "imageName" : "goldCube",
+          "dialogue" : "Oh, hello there. What are you doing wandering outside the gates alone? It's not safe."
+        },
+        {
+          "id" : "HumphreyConvo1_line1",
+          "speaker" : "Kane",
+          "type" : "noReply",
+          "name" : "Player",
+          "imageName": "purpleCube",
+          "dialogue" : "Not safe?"
+        },
+        {
+          "id" : "HumphreyConvo1_line2",
+          "speaker" : "Humphrey",
+          "type" : "noReply",
+          "name" : "Guard",
+          "imageName": "goldCube",
+          "dialogue" : "Indeed, many vile beasts lurk around in the outskirts. It is not wise to travel alone and unprotected."
+        },
+        {
+          "id" : "HumphreyConvo1_line3",
+          "speaker" : "Kane",
+          "type" : "noReply",
+          "name" : "Player",
+          "imageName": "purpleCube",
+          "dialogue" : "Ah I see. And why are you out here alone?"
+        },
+        {
+          "id" : "HumphreyConvo1_line4",
+          "speaker" : "Humphrey",
+          "type" : "noReply",
+          "name" : "Guard",
+          "imageName": "goldCube",
+          "dialogue" : "I am a member of the king's royal guard! It is my duty to watch the gate and make sure that the people of Ewtopia stay protected."
+        },
+        {
+          "id" : "HumphreyConvo1_line5",
+          "speaker" : "Humphrey",
+          "type" : "noReply",
+          "name" : "Humphrey",
+          "imageName" : "goldCube",
+          "dialogue" : "The name's Humphrey by the way."
+        },
+        {
+          "id" : "HumphreyConvo1_line6",
+          "speaker" : "Kane",
+          "type" : "noReply",
+          "name" : "Player",
+          "imageName": "purpleCube",
+          "dialogue" : "Kane."
+        },
+        {
+          "id" : "HumphreyConvo1_line7",
+          "speaker" : "Humphrey",
+          "type" : "noReply",
+          "name" : "Humphrey",
+          "imageName": "goldCube",
+          "dialogue" : "I've never seen you around here before. Is this your first time visiting Ewtopia?"
+        },
+        {
+          "id" : "HumphreyConvo1_line8",
+          "speaker" : "Kane",
+          "type" : "noReply",
+          "name" : "Kane",
+          "imageName": "purpleCube",
+          "dialogue" : "Yep. What is this place?"
+        },
+        {
+          "id" : "HumphreyConvo1_line9",
+          "speaker" : "Humphrey",
+          "type" : "noReply",
+          "name" : "Humphrey",
+          "imageName": "goldCube",
+          "dialogue" : "This is the great city of Ewtopia! A land of joy and riches! Filled with opportunities and possibilities!"
+        },
+        {
+          "id" : "HumphreyConvo1_line10",
+          "speaker" : "Humphrey",
+          "type" : "noReply",
+          "name" : "Humphrey",
+          "imageName": "goldCube",
+          "dialogue" : "Ewtopia is a place for everyone, even you my friend. If you would like to become a citizen, go and speak to the city mayor."
+        },
+        {
+          "id" : "HumphreyConvo1_line11",
+          "speaker" : "Kane",
+          "type" : "noReply",
+          "name" : "Kane",
+          "imageName": "purpleCube",
+          "dialogue" : "Where can I find him?"
+        },
+        {
+          "id" : "HumphreyConvo1_line12",
+          "speaker" : "Humphrey",
+          "type" : "noReply",
+          "name" : "Humphrey",
+          "imageName" : "goldCube",
+          "dialogue" : "He should be in the house straight at the end."
+        },
+        {
+          "id" : "HumphreyConvo1_line13",
+          "speaker" : "Humphrey",
+          "type" : "noReply",
+          "name" : "Humphrey",
+          "imageName": "goldCube",
+          "dialogue" : "Here, I'll open the gates for you."
+        },
+        {
+          "id" : "HumphreyConvo1_line14",
+          "speaker" : "Kane",
+          "type" : "noReply",
+          "name" : "Kane",
+          "imageName": "purpleCube",
+          "dialogue" : "Thanks, see you around."
+        }
+      ]
+    },{
+      "convoId": "HumphreyIdleConvo",
+      "dialogueItems" : [
+        {
+          "id": "HumphreyIdleConvo_line0",
+          "speaker" : "Humphrey",
+          "type" : "noReply",
+          "name": "Humphrey",
+          "imageName" : "goldCube",
+          "dialogue": "As much as I hate standing in this heat all day, nothing beats the views from here."
+        }
+      ]
+    },{
+      "convoId" : "GilbertConvo1",
+      "dialogueItems":[
+        {
+          "id" : "GilbertConvo1_line0",
+          "speaker" : "Gilbert",
+          "type" : "noReply",
+          "name" : "Unlikable",
+          "imageName" : "greyCube",
+          "dialogue" : "Good day sir."
+        },
+        {
+          "id" : "GilbertConvo1_line1",
+          "speaker": "Kane",
+          "type" : "noReply",
+          "name" : "Kane",
+          "imageName" : "purpleCube",
+          "dialogue" : "You don't look like everybody else."
+        },
+        {
+          "id" : "GilbertConvo1_line2",
+          "speaker": "Gilbert",
+          "type" : "noReply",
+          "name" : "Unlikable",
+          "imageName" : "greyCube",
+          "dialogue" : "You're right sir. But not too long ago, I was just as beautiful as them."
+        },
+        {
+          "id" : "GilbertConvo1_line3",
+          "speaker": "Gilbert",
+          "type" : "noReply",
+          "name" : "Unlikeable",
+          "imageName" : "greyCube",
+          "dialogue" : "I worked at the bank, sorting the coins. I was actually really good at it! Fast-hands Gilbert they used to call me."
+        },
+        {
+          "id" : "GilbertConvo1_line4",
+          "speaker": "Kane",
+          "type" : "noReply",
+          "name" : "Kane",
+          "imageName" : "purpleCube",
+          "dialogue" : "So what happened?"
+        },
+        {
+          "id" : "GilbertConvo1_line5",
+          "speaker": "Gilbert",
+          "type" : "noReply",
+          "name" : "Gilbert",
+          "imageName" : "greyCube",
+          "dialogue" : "I lost it all sir. The bank could not afford to hire me so they threw me out."
+        },
+        {
+          "id" : "GilbertConvo1_line6",
+          "speaker": "Gilbert",
+          "type" : "noReply",
+          "name" : "Gilbert",
+          "imageName" : "greyCube",
+          "dialogue" : "Everybody else abandoned me, I was alone."
+        },
+        {
+          "id" : "GilbertConvo1_line7",
+          "speaker": "Gilbert",
+          "type" : "noReply",
+          "name" : "Gilbert",
+          "imageName" : "greyCube",
+          "dialogue" : "But that's enough about me. I've never seen you here before. Are you new?"
+        },
+        {
+          "id" : "GilbertConvo1_line8",
+          "speaker": "Kane",
+          "type" : "noReply",
+          "name" : "Kane",
+          "imageName" : "purpleCube",
+          "dialogue" : "It's my first time here. It seems like a nice place."
+        },
+        {
+          "id" : "GilbertConvo1_line9",
+          "speaker": "Gilbert",
+          "type" : "noReply",
+          "name" : "Gilbert",
+          "imageName" : "greyCube",
+          "dialogue" : "Don't be fooled, the people here may seem friendly, but they only care about themselves. That is the reason this city is falling apart."
+        },
+        {
+          "id" : "GilbertConvo1_line10",
+          "speaker": "Kane",
+          "type" : "noReply",
+          "name" : "Kane",
+          "imageName" : "purpleCube",
+          "dialogue" : "I'll keep that in mind."
+        },
+        {
+          "id" : "GilbertConvo1_line11",
+          "speaker": "Gilbert",
+          "type" : "noReply",
+          "name" : "Gilbert",
+          "imageName" : "greyCube",
+          "dialogue" : "But you seem like a kind fellow. Do you think you could help me out?"
+        },
+        {
+          "id" : "GilbertConvo1_line12",
+          "speaker": "Kane",
+          "type" : "noReply",
+          "name" : "Kane",
+          "imageName" : "purpleCube",
+          "dialogue" : "What do you need?"
+        },
+        {
+          "id" : "GilbertConvo1_line13",
+          "speaker": "Gilbert",
+          "type" : "noReply",
+          "name" : "Gilbert",
+          "imageName" : "greyCube",
+          "dialogue" : "Sir, I have nothing at the moment, not even a roof over my head. Could you spare any change?",
+          "itemRequired" : [
+            {
+              "itemRequired" : "changeCoin",
+              "dialogue": "Thank you so much kind sir! I will be forever grateful!",
+              "gaveChange" : true
+            }
+          ]
+        },
+        {
+          "id" : "GilbertConvo1_line14",
+          "speaker": "Gilbert",
+          "type" : "noReply",
+          "name" : "Gilbert",
+          "imageName" : "greyCube",
+          "dialogue" : "Have a delightful day sir."
+        }
+      ]
+    },
+    {
+      "convoId": "GilbertIdleConvo",
+      "dialogueItems": [
+        {
+          "id" : "GilbertIdleConvo_line0",
+          "speaker": "Gilbert",
+          "type" : "noReply",
+          "name" : "Gilbert",
+          "imageName" : "greyCube",
+          "dialogue" : "Hello my friend! I hope that you are having a wonderful day."
+        }
+      ]
+    },
+    {
+      "convoId": "GilbertThankfulConvo",
+      "dialogueItems": [
+        {
+          "id" : "GilbertThankfulConvo_line0",
+          "speaker": "Gilbert",
+          "type" : "noReply",
+          "name" : "Gilbert",
+          "imageName" : "greyCube",
+          "dialogue" : "Thank you so much kind sir! I will be forever grateful!"
+        }
+      ]
+    },
+    {
+      "convoId": "Civilian1Line",
+      "dialogueItems" : [
+        {
+          "id" : "Civilian1Line_line0",
+          "speaker": "Civilian1",
+          "type": "noReply",
+          "name": "Ewtopian Civilian",
+          "imageName": "lightBlueCube",
+          "dialogue" : "What a lovely day it is today, too bad I'll be spending most of it indoors."
+        }
+      ]
+    },
+    {
+      "convoId": "Civilian2Line",
+      "dialogueItems": [
+        {
+          "id": "Civilian2Line_line0",
+          "speaker" : "Civilian2",
+          "type" : "noReply",
+          "name" : "Ewtopian Civilaian",
+          "imageName" : "greenCube",
+          "dialogue" : "Watch out for the Unlikeables, nasty bunch they are."
+        }
+      ]
+    }, 
+    {
+      "convoId": "CaptainConvo",
+      "dialogueItems": [
+        {
+          "id": "CaptainConvo_line0",
+          "speaker" : "Captain",
+          "type" : "noReply",
+          "name": "Guard Captain",
+          "imageName": "maroonCube",
+          "dialogue": "Ah, a new face in Ewtopia. You don't see that every day."
+        },
+        {
+          "id": "CaptainConvo_line1",
+          "speaker" : "Kane",
+          "type" : "noReply",
+          "name": "Kane",
+          "imageName": "purpleCube",
+          "dialogue": "Kane. I'm just passing through."
+        },
+        {
+          "id": "CaptainConvo_line2",
+          "speaker" : "Captain",
+          "type" : "noReply",
+          "name": "Guard Captain",
+          "imageName": "maroonCube",
+          "dialogue": "Well, Kane, if you do decide to stay for a while, I may have a job for you."
+        },
+        {
+          "id": "CaptainConvo_line3",
+          "speaker" : "Kane",
+          "type" : "noReply",
+          "name": "Kane",
+          "imageName": "purpleCube",
+          "dialogue": "I'm listening."
+        },
+        {
+          "id": "CaptainConvo_line4",
+          "speaker" : "Captain",
+          "type" : "noReply",
+          "name": "Guard Captain",
+          "imageName": "maroonCube",
+          "dialogue": "As you have probably already seen, we are a bit short on guards and the beasts outside of these walls keep on getting closer."
+        },
+        {
+          "id": "CaptainConvo_line5",
+          "speaker" : "Captain",
+          "type" : "reply",
+          "name": "Guard Captain",
+          "imageName": "maroonCube",
+          "dialogue": "Bring me the head of one of those beasts and I will make sure that you are rewarded. What do you say?",
+          "numAnswers": 2,
+          "answer0" : "Sounds easy enough. I'll get you that head.",
+          "nextScene0" : 1,
+          "answer1": "I'm busy at the moment",
+          "nextScene1" : 2
+        }
+      ]
+    },
+    {
+      "convoId": "CaptainQuestConvo",
+      "dialogueItems": [
+        {
+          "id": "CaptainQuestConvo_line0",
+          "speaker" : "Captain",
+          "type" : "noReply",
+          "name": "Guard Captain",
+          "imageName": "maroonCube",
+          "dialogue": "Did you manage to get that beast head?",
+          "itemRequired": [
+            {
+              "itemRequired": "beastHead",
+              "dialogue": "Splendid! Here is your reward, as promised.",
+              "captainQuestCompleted": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "convoId": "MayorConvo1",
+      "dialogueItems": [
+        {
+          "id": "MayorConvo1_line0",
+          "speaker": "Mayor",
+          "type" : "noReply",
+          "name": "Mayor",
+          "imageName" : "blueCube",
+          "dialogue": "Good day stranger! It's nice to see a new face in Ewtopia."
+        },
+        {
+          "id": "MayorConvo1_line1",
+          "speaker": "Kane",
+          "type" : "noReply",
+          "name": "Kane",
+          "imageName" : "purpleCube",
+          "dialogue": "Hello mayor. My name is Kane. Your guard at the gate told me that I should talk to you regarding citizenship."
+        },
+        {
+          "id": "MayorConvo1_line2",
+          "speaker": "Mayor",
+          "type" : "noReply",
+          "name": "Mayor",
+          "imageName" : "blueCube",
+          "dialogue": "Ah yes, if you wish to become a citizen, you must first buy a house. Each house costs a single platinum coin.",
+          "itemRequired": [
+            {
+              "itemRequired": "premiumCoin",
+              "dialogue": "Wonderful! Here is the key to your new house. I hope that you have a wonderful stay.",
+              "houseBought": true
+            }
+          ]
+        },
+        {
+          "id": "MayorConvo1_line3",
+          "speaker" : "Kane",
+          "type" : "noReply",
+          "name": "Kane",
+          "imageName": "purpleCube",
+          "dialogue": "Who are those people outside? The dull looking ones?"
+        },
+        {
+          "id": "MayorConvo1_line4",
+          "speaker": "Mayor",
+          "type" : "noReply",
+          "name": "Mayor",
+          "imageName" : "blueCube",
+          "dialogue": "Those are the Unlikeables. Once upstanding members of our society, now shamed and worthless."
+        },
+        {
+          "id": "MayorConvo1_line5",
+          "speaker" : "Kane",
+          "type" : "noReply",
+          "name": "Kane",
+          "imageName": "purpleCube",
+          "dialogue": "You're the mayor aren't you? Isn't it your job to help them?"
+        },
+        {
+          "id": "MayorConvo1_line6",
+          "speaker": "Mayor",
+          "type" : "noReply",
+          "name": "Mayor",
+          "imageName" : "blueCube",
+          "dialogue": "Ha! The Unlikeables do not own any property, therefore they aren't citizens of Ewtopia anymore. I am not their Mayor."
+        },
+        {
+          "id": "MayorConvo1_line7",
+          "speaker" : "Kane",
+          "type" : "noReply",
+          "name": "Kane",
+          "imageName": "purpleCube",
+          "dialogue": "So you are just going to discard and forget about them??"
+        },
+        {
+          "id": "MayorConvo1_line8",
+          "speaker": "Mayor",
+          "type" : "noReply",
+          "name": "Mayor",
+          "imageName" : "blueCube",
+          "dialogue": "That's the way life works, unfortunately."
+        },
+        {
+          "id": "MayorConvo1_line9",
+          "speaker": "Mayor",
+          "type" : "noReply",
+          "name": "Mayor",
+          "imageName" : "blueCube",
+          "dialogue": "Now, I am quite busy at the moment so I am afraid I will have to leave you."
+        }
+      ]
+    },
+    {
+      "convoId": "MayorIdleConvo",
+      "dialogueItems": [
+        {
+          "id": "MayorIdleConvo_line0",
+          "speaker": "Mayor",
+          "type" : "noReply",
+          "name": "Mayor",
+          "imageName" : "blueCube",
+          "dialogue": "I would love to sit around and chat, but unfortunately I have quite a lot of work to do."
+        }
+      ]
+    },
+    {
+      "convoId": "Unlikeable1Convo",
+      "dialogueItems": [
+        {
+          "id": "Unlikeable1Convo_line0",
+          "speaker": "Unlikeable1",
+          "type" : "noReply",
+          "name": "Unlikeable",
+          "imageName" : "blackCube",
+          "dialogue": "Please help me sir, I'm starving."
+        }
+      ]
+    },
+    {
+      "convoId": "Unlikeable1ThankfulLine",
+      "dialogueItems": [
+        {
+          "id": "Unlikeable1ThankfulLine_line0",
+          "speaker": "Unlikeable1",
+          "type" : "noReply",
+          "name": "Unlikeable",
+          "imageName" : "blackCube",
+          "dialogue": "Thank you so much sir! You have no idea how much this will help me!"
+        }
+      ]
+    },
+    {
+      "convoId": "Unlikeable1ThankfulIdleLine",
+      "dialogueItems": [
+        {
+          "id": "Unlikeable1ThankfulIdleLine_line0",
+          "speaker": "Unlikeable1",
+          "type" : "noReply",
+          "name": "Unlikeable",
+          "imageName" : "blackCube",
+          "dialogue": "Thank you for your kindness sir! How could I ever repay you?"
+        }
+      ]
+    },
+    {
+      "convoId": "Unlikeable2Line",
+      "dialogueItems": [
+        {
+          "id": "Unlikeable2Line_line0",
+          "speaker": "Unlikeable2",
+          "type" : "noReply",
+          "name": "Unlikeable",
+          "imageName" : "brownCube",
+          "dialogue": "How can people treat others like this? I wouldn't wish it on anyone."
+        }
+      ]
+    }
+  ]
+}

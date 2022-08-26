@@ -1,0 +1,2536 @@
+{
+  "dialogueSets": [
+    {
+      "convoId": "TestScene",
+      "dialogueItems": [
+        {
+          "id": "START",
+          "speaker":"Mike",
+          "name": "Mike",
+          "imageName": "goldCube",
+          "dialogue": "Greetings. My name is Mike. This is a test.",
+          "options": [
+            {
+              "text": "Test?",
+              "linkID": "TestScene_Option1"
+            },
+            {
+              "text": "Okay",
+              "linkID": "TestScene_Option2"
+            }
+          ]
+        },
+        {
+          "id": "TestScene_Option1",
+          "speaker": "You",
+          "name": "You",
+          "imageName": "purpleCube",
+          "dialogue": "A Test?",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "TestScene_Option1_Line2"
+            }
+          ]
+        },
+        {
+          "id": "TestScene_Option1_Line2",
+          "speaker": "Mike",
+          "name": "Mike",
+          "imageName": "goldCube",
+          "dialogue": "Indeed! We are testing to see if the graphs are working before we integrate it into the game.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "TestScene_Option1_Line3"
+            }
+          ]
+        },
+        {
+          "id": "TestScene_Option1_Line3",
+          "speaker": "You",
+          "name": "You",
+          "imageName": "purpleCube",
+          "dialogue": "Are they working?",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "TestScene_Option1_Line4"
+            }
+          ]
+        },
+        {
+          "id": "TestScene_Option1_Line4",
+          "speaker": "Mike",
+          "name": "Mike",
+          "imageName": "goldCube",
+          "dialogue": "I hope so. Why don't you try it out. Click an option bellow.",
+          "options": [
+            {
+              "text": "Option 1",
+              "linkID": "TestScene_Option1_Line4_Option1"
+            },
+            {
+              "text": "Option 2",
+              "linkID": "TestScene_Option1_Line4_Option2"
+            }
+          ]
+        },
+        {
+          "id": "TestScene_Option1_Line4_Option1",
+          "speaker": "You",
+          "name": "You",
+          "imageName": "purpleCube",
+          "dialogue": "I choose Option 1",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "TestScene_Option1_Line4_Option1_Line2"
+            }
+          ]
+        },
+        {
+          "id": "TestScene_Option1_Line4_Option1_Line2",
+          "speaker": "Mike",
+          "name": "Mike",
+          "imageName": "goldCube",
+          "dialogue": "A strange choice... But the graph seems to be working fine.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "TestScene_Option1_Line4_Option1_Line3"
+            }
+          ]
+        },
+        {
+          "id": "TestScene_Option1_Line4_Option1_Line3",
+          "speaker": "Mike",
+          "name": "Mike",
+          "imageName": "goldCube",
+          "dialogue": "Now go back and try the other options.",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        },
+        {
+          "id": "TestScene_Option1_Line4_Option2",
+          "speaker": "You",
+          "name": "You",
+          "imageName": "purpleCube",
+          "dialogue": "I choose Option 2",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "TestScene_Option1_Line4_Option2_Line2"
+            }
+          ]
+        },
+        {
+          "id": "TestScene_Option1_Line4_Option2_Line2",
+          "speaker": "Mike",
+          "name": "Mike",
+          "imageName": "goldCube",
+          "dialogue": "In all the time that I have spent testing, you are the first to choose that option.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "TestScene_Option1_Line4_Option2_Line3"
+            }
+          ]
+        },
+        {
+          "id": "TestScene_Option1_Line4_Option2_Line3",
+          "speaker": "You",
+          "name": "You",
+          "imageName": "purpleCube",
+          "dialogue": "Did the test work?",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "TestScene_Option1_Line4_Option2_Line4"
+            }
+          ]
+        },
+        {
+          "id": "TestScene_Option1_Line4_Option2_Line4",
+          "speaker": "Mike",
+          "name": "Mike",
+          "imageName": "goldCube",
+          "dialogue": "Well you have made it this far so I assume it has! Well done!",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        },
+        {
+          "id": "TestScene_Option2",
+          "speaker": "You",
+          "name": "You",
+          "imageName": "purpleCube",
+          "dialogue": "Cool. What do you need me to do?",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "TestScene_Option2_Line2"
+            }
+          ]
+        },
+        {
+          "id": "TestScene_Option2_Line2",
+          "speaker": "Mike",
+          "name": "Mike",
+          "imageName": "goldCube",
+          "dialogue": "Repeat after me... This",
+          "options": [
+            {
+              "text": "This",
+              "linkID": "TestScene_Option2_Line2_Correct"
+            },
+            {
+              "text": "That",
+              "linkID": "TestScene_Option2_Line2_Wrong"
+            }
+          ]
+        },
+        {
+          "id": "TestScene_Option2_Line2_Correct",
+          "speaker": "You",
+          "name": "You",
+          "imageName": "purpleCube",
+          "dialogue": "This...",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "TestScene_Option2_Line2_Correct_Line2"
+            }
+          ]
+        },
+        {
+          "id": "TestScene_Option2_Line2_Wrong",
+          "speaker": "You",
+          "name": "You",
+          "imageName": "purpleCube",
+          "dialogue": "That...",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "TestScene_Option2_Line2_Wrong_Line2"
+            }
+          ]
+        },
+        {
+          "id": "TestScene_Option2_Line2_Wrong_Line2",
+          "speaker": "Mike",
+          "name": "Mike",
+          "imageName": "goldCube",
+          "dialogue": "No! No! No!",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "TestScene_Option2_Line2"
+            }
+          ]
+        },
+        {
+          "id": "TestScene_Option2_Line2_Correct_Line2",
+          "speaker": "Mike",
+          "name": "Mike",
+          "imageName": "goldCube",
+          "dialogue": "Is...",
+          "options": [
+            {
+              "text": "Is",
+              "linkID": "TestScene_Option2_Line2_Correct_Line2_Correct"
+            },
+            {
+              "text": "Was",
+              "linkID": "TestScene_Option2_Line2_Correct_Line2_Wrong"
+            }
+          ]
+        },
+        {
+          "id": "TestScene_Option2_Line2_Correct_Line2_Correct",
+          "speaker": "You",
+          "name": "You",
+          "imageName": "purpleCube",
+          "dialogue": "Is...",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "TestScene_Option2_Line2_Correct_Line2_Correct_Line2"
+            }
+          ]
+        },
+        {
+          "id": "TestScene_Option2_Line2_Correct_Line2_Wrong",
+          "speaker": "You",
+          "name": "You",
+          "imageName": "purpleCube",
+          "dialogue": "Was...",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "TestScene_Option2_Line2_Correct_Line2_Wrong_Line2"
+            }
+          ]
+        },
+        {
+          "id": "TestScene_Option2_Line2_Correct_Line2_Wrong_Line2",
+          "speaker": "Mike",
+          "name": "Mike",
+          "imageName": "goldCube",
+          "dialogue": "Come on! Focus! Repeat after me!",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "TestScene_Option2_Line2_Correct_Line2"
+            }
+          ]
+        },
+        {
+          "id": "TestScene_Option2_Line2_Correct_Line2_Correct_Line2",
+          "speaker": "Mike",
+          "name": "Mike",
+          "imageName": "goldCube",
+          "dialogue": "Working.",
+          "options": [
+            {
+              "text": "Working",
+              "linkID": "TestScene_Option2_Line2_Correct_Line2_Correct_Line2_Correct"
+            }
+          ]
+        },
+        {
+          "id": "TestScene_Option2_Line2_Correct_Line2_Correct_Line2_Correct",
+          "speaker": "You",
+          "name": "You",
+          "imageName": "purpleCube",
+          "dialogue": "Working.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "TestScene_Option2_Line2_Correct_Line2_Correct_Line2_Correct_Line2"
+            }
+          ]
+        },
+        {
+          "id": "TestScene_Option2_Line2_Correct_Line2_Correct_Line2_Correct_Line2",
+          "speaker": "Mike",
+          "name": "Mike",
+          "imageName": "goldCube",
+          "dialogue": "Hehehehehe see what I did at the end there. I wanted to make extra sure that you didn't get it wrong.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "TestScene_Option2_Line2_Correct_Line2_Correct_Line2_Correct_Line3"
+            }
+          ]
+        },
+        {
+          "id": "TestScene_Option2_Line2_Correct_Line2_Correct_Line2_Correct_Line3",
+          "speaker": "Mike",
+          "name": "Mike",
+          "imageName": "goldCube",
+          "dialogue": "Well alright then, the test seems to be working!",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "convoId": "HumphreyConvo1",
+      "dialogueItems": [
+        {
+          "id": "START",
+          "speaker": "Humphrey",
+          "name": "Guard",
+          "imageName": "HumphreyPic",
+          "dialogue": "Oh, hello there. What are you doing wandering outside the gates alone? It's not safe.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "HumphreyConvo1_line2"
+            },
+            {
+              "text": "Change",
+              "linkID": "Humphrey_req_item",
+              "requiredItem": "change"
+            }
+          ]
+        },
+        {
+          "id": "Humphrey_req_item",
+          "speaker": "Humphrey",
+          "name": "Guard",
+          "imageName": "HumphreyPic",
+          "dialogue": "Thank you kind sir",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "HumphreyConvo1_line2"
+            }
+          ]
+        },
+        {
+          "id": "HumphreyConvo1_line2",
+          "speaker": "Kane",
+          "name": "Player",
+          "imageName": "KanePic",
+          "dialogue": "Not safe?",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "HumphreyConvo1_line3"
+            }
+          ]
+        },
+        {
+          "id": "HumphreyConvo1_line3",
+          "speaker": "Humphrey",
+          "name": "Guard",
+          "imageName": "HumphreyPic",
+          "dialogue": "Indeed, the lands outside of the city of Ewtopia are wild and filled with thieves.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "HumphreyConvo1_line4"
+            }
+          ]
+        },
+        {
+          "id": "HumphreyConvo1_line4",
+          "speaker": "Kane",
+          "name": "Player",
+          "imageName": "KanePic",
+          "dialogue": "The city of Ewtopia?",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "HumphreyConvo1_line5"
+            }
+          ]
+        },
+        {
+          "id": "HumphreyConvo1_line5",
+          "speaker": "Humphrey",
+          "name": "Guard",
+          "imageName": "HumphreyPic",
+          "dialogue": "That's right! It is my job to watch the gate and defend this great city!",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "HumphreyConvo1_line6"
+            }
+          ]
+        },
+        {
+          "id": "HumphreyConvo1_line6",
+          "speaker": "Humphrey",
+          "name": "Humphrey",
+          "imageName": "HumphreyPic",
+          "dialogue": "My name's Humphrey by the way.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "HumphreyConvo1_line7"
+            }
+          ]
+        },
+        {
+          "id": "HumphreyConvo1_line7",
+          "speaker": "Kane",
+          "name": "Player",
+          "imageName": "KanePic",
+          "dialogue": "Kane.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "HumphreyConvo1_line8"
+            }
+          ]
+        },
+        {
+          "id": "HumphreyConvo1_line8",
+          "speaker": "Humphrey",
+          "name": "Humphrey",
+          "imageName": "HumphreyPic",
+          "dialogue": "I've never seen you around here before. Is this your first time visiting Ewtopia?",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "HumphreyConvo1_line9"
+            }
+          ]
+        },
+        {
+          "id": "HumphreyConvo1_line9",
+          "speaker": "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "Yep, although I am just passing through, I doubt I will stay long.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "HumphreyConvo1_line10"
+            }
+          ]
+        },
+        {
+          "id": "HumphreyConvo1_line10",
+          "speaker": "Humphrey",
+          "name": "Humphrey",
+          "imageName": "HumphreyPic",
+          "dialogue": "Here, I will open the gate for sure. Speak to the Captain, he should be able to show you more of the city.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "HumphreyConvo1_line11"
+            }
+          ]
+        },
+        {
+          "id": "HumphreyConvo1_line11",
+          "speaker": "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "Thanks Humphrey, I'll see you around.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "END"
+            }
+          ]
+        },
+        {
+          "id": "END",
+          "speaker": "Humphrey",
+          "name": "Humphrey",
+          "imageName": "HumphreyPic",
+          "dialogue": "I'll be here. Enjoy your stay!",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "convoId": "HumphreyIdleConvo",
+      "dialogueItems" : [
+        {
+          "id": "START",
+          "speaker" : "Humphrey",
+          "name": "Humphrey",
+          "imageName" : "HumphreyPic",
+          "dialogue": "As much as I hate standing in this heat all day, nothing beats the views from here.",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "convoId": "GilbertConvo1",
+      "dialogueItems": [
+        {
+          "id": "START",
+          "speaker": "Gilbert",
+          "name": "Unlikable",
+          "imageName": "GilbertPic",
+          "dialogue": "Good day sir.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "GilbertConvo1_line1"
+            }
+          ]
+        },
+        {
+          "id": "GilbertConvo1_line1",
+          "speaker": "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "You don't look like everybody else.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "GilbertConvo1_line2"
+            }
+          ]
+        },
+        {
+          "id": "GilbertConvo1_line2",
+          "speaker": "Gilbert",
+          "name": "Unlikable",
+          "imageName": "GilbertPic",
+          "dialogue": "You're right sir. But not too long ago, I was just as beautiful as them.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "GilbertConvo1_line3"
+            }
+          ]
+        },
+        {
+          "id": "GilbertConvo1_line3",
+          "speaker": "Gilbert",
+          "name": "Unlikeable",
+          "imageName": "GilbertPic",
+          "dialogue": "I worked at the bank, sorting the coins. I was actually really good at it! Fast-hands Gilbert they used to call me.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "GilbertConvo1_line4"
+            }
+          ]
+        },
+        {
+          "id": "GilbertConvo1_line4",
+          "speaker": "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "So what happened?",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "GilbertConvo1_line5"
+            }
+          ]
+        },
+        {
+          "id": "GilbertConvo1_line5",
+          "speaker": "Gilbert",
+          "name": "Gilbert",
+          "imageName": "GilbertPic",
+          "dialogue": "I lost it all sir. The bank could not afford to hire me so they threw me out.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "GilbertConvo1_line6"
+            }
+          ]
+        },
+        {
+          "id": "GilbertConvo1_line6",
+          "speaker": "Gilbert",
+          "name": "Gilbert",
+          "imageName": "GilbertPic",
+          "dialogue": "Everybody else abandoned me, I was alone.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "GilbertConvo1_line7"
+            }
+          ]
+        },
+        {
+          "id": "GilbertConvo1_line7",
+          "speaker": "Gilbert",
+          "name": "Gilbert",
+          "imageName": "GilbertPic",
+          "dialogue": "But that's enough about me. I've never seen you here before. Are you new?",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "GilbertConvo1_line8"
+            }
+          ]
+        },
+        {
+          "id": "GilbertConvo1_line8",
+          "speaker": "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "It's my first time here. It seems like a nice place.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "GilbertConvo1_line9"
+            }
+          ]
+        },
+        {
+          "id": "GilbertConvo1_line9",
+          "speaker": "Gilbert",
+          "name": "Gilbert",
+          "imageName": "GilbertPic",
+          "dialogue": "Don't be fooled, the people here may seem friendly, but they only care about themselves. That is the reason this city is falling apart.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "GilbertConvo1_line10"
+            }
+          ]
+        },
+        {
+          "id": "GilbertConvo1_line10",
+          "speaker": "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "I'll keep that in mind.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "GilbertConvo1_line11"
+            }
+          ]
+        },
+        {
+          "id": "GilbertConvo1_line11",
+          "speaker": "Gilbert",
+          "name": "Gilbert",
+          "imageName": "GilbertPic",
+          "dialogue": "But you seem like a kind fellow. Do you think you could help me out?",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "GilbertConvo1_line12"
+            }
+          ]
+        },
+        {
+          "id": "GilbertConvo1_line12",
+          "speaker": "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "What do you need?",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "GilbertConvo1_line13"
+            }
+          ]
+        },
+        {
+          "id": "GilbertConvo1_line13",
+          "speaker": "Gilbert",
+          "name": "Gilbert",
+          "imageName": "GilbertPic",
+          "dialogue": "Sir, I have nothing at the moment, not even a roof over my head. Could you spare any change?",
+          "options": [
+            {
+              "text": "No",
+              "linkID": "GilbertConvo1_line14"
+            },
+            {
+              "text": "Change",
+              "linkID": "GilbertThankfulLine",
+              "requiredItem" : "change"
+            }
+          ]
+        },
+        {
+          "id" : "GilbertThankfulLine",
+          "speaker": "Gilbert",
+          "name" : "Gilbert",
+          "imageName" : "GilbertPic",
+          "dialogue" : "Thank you so much kind sir! I will be forever grateful!",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        },
+        {
+          "id" : "GilbertConvo1_line14",
+          "speaker": "Kane",
+          "name" : "Kane",
+          "imageName" : "KanePic",
+          "dialogue" : "I'm sorry, I don't have any on me right now",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "GilbertConvo1_line15"
+            }
+          ]
+        },
+        {
+          "id" : "GilbertConvo1_line15",
+          "speaker": "Gilbert",
+          "name" : "Gilbert",
+          "imageName" : "GilbertPic",
+          "dialogue" : "That's no problem sir. I don't expect anything from you. Have a pleasant day!",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "convoId": "GilbertIdleConvo",
+      "dialogueItems": [
+        {
+          "id" : "START",
+          "speaker": "Gilbert",
+          "name" : "Gilbert",
+          "imageName" : "GilbertPic",
+          "dialogue" : "Hello my friend! I hope that you are having a wonderful day.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "GilbertIdleConvo_Line2"
+            }
+          ]
+        },
+        {
+          "id" : "GilbertIdleConvo_Line2",
+          "speaker": "Gilbert",
+          "name" : "Gilbert",
+          "imageName" : "GilbertPic",
+          "dialogue" : "Is there something you need?",
+          "options": [
+            {
+              "text": "Nothing",
+              "linkID": "GilbertIdleConvo_Line3"
+            },
+            {
+              "text": "Change",
+              "linkID": "GilbertIdleConvo_GaveChange",
+              "requiredItem": "change"
+            }
+          ]
+        },
+        {
+          "id" : "GilbertIdleConvo_Line3",
+          "speaker": "Kane",
+          "name" : "Kane",
+          "imageName" : "KanePic",
+          "dialogue" : "No, nothing. I should be going now.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "GilbertIdleConvo_Line4"
+            }
+          ]
+        },
+        {
+          "id" : "GilbertIdleConvo_Line4",
+          "speaker": "Gilbert",
+          "name" : "Gilbert",
+          "imageName" : "GilbertPic",
+          "dialogue" : "Have a pleasant day sir!",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        },
+        {
+          "id" : "GilbertIdleConvo_GaveChange",
+          "speaker": "Kane",
+          "name" : "Kane",
+          "imageName" : "KanePic",
+          "dialogue" : "Here, this is for you.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "GilbertIdleConvo_GaveChange_Line2"
+            }
+          ]
+        },
+        {
+          "id" : "GilbertIdleConvo_GaveChange_Line2",
+          "speaker": "Gilbert",
+          "name" : "Gilbert",
+          "imageName" : "GilbertPic",
+          "dialogue" : "Oh wow! Thank you so much sir!",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "GilbertIdleConvo_GaveChange_Line3"
+            }
+          ]
+        },
+        {
+          "id" : "GilbertIdleConvo_GaveChange_Line3",
+          "speaker": "Gilbert",
+          "name" : "Gilbert",
+          "imageName" : "GilbertPic",
+          "dialogue" : "I shall never forget this generosity!",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "convoId": "GilbertThankfulConvo",
+      "dialogueItems": [
+        {
+          "id" : "START",
+          "speaker": "Gilbert",
+          "name" : "Gilbert",
+          "imageName" : "GilbertPic",
+          "dialogue" : "I will forever remember your kindness! Bless you!",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "convoId": "CaptainConvo",
+      "dialogueItems": [
+        {
+          "id": "START",
+          "speaker" : "Captain",
+          "name": "Guard Captain",
+          "imageName": "CaptainPic",
+          "dialogue": "Ah, a new face in Ewtopia. You don't see that every day.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "CaptainConvo_line1"
+            }
+          ]
+        },
+        {
+          "id": "CaptainConvo_line1",
+          "speaker" : "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "I'm Kane. I'm just passing through.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "CaptainConvo_line2"
+            }
+          ]
+        },
+        {
+          "id": "CaptainConvo_line2",
+          "speaker" : "Captain",
+          "name": "Guard Captain",
+          "imageName": "CaptainPic",
+          "dialogue": "Well, Kane, I can't speak with you at the moment. I am up to my hinges in paperwork, and that brat has been causing trouble again.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "CaptainConvo_line3"
+            }
+          ]
+        },
+        {
+          "id": "CaptainConvo_line3",
+          "speaker" : "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "Brat?",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "CaptainConvo_line4"
+            }
+          ]
+        },
+        {
+          "id": "CaptainConvo_line4",
+          "speaker" : "Captain",
+          "name": "Guard Captain",
+          "imageName": "CaptainPic",
+          "dialogue": "His name is Chester, he is always standing in front of the bank screaming out his nonsense.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "CaptainConvo_GiveQuest"
+            }
+          ]
+        },
+        {
+          "id": "CaptainConvo_GiveQuest",
+          "speaker" : "Captain",
+          "name": "Guard Captain",
+          "imageName": "CaptainPic",
+          "dialogue": "You know what, you seem like a reasonable chap. Why don't you go talk some sense into him? Perhaps he would listen to you.",
+          "options": [
+            {
+              "text": "Yes",
+              "linkID": "CaptainQuestAccept"
+            },
+            {
+              "text": "No",
+              "linkID": "CaptainQuestDecline_Line1"
+            }
+          ]
+        },
+        {
+          "id": "CaptainQuestAccept",
+          "speaker" : "Captain",
+          "name": "Guard Captain",
+          "imageName": "CaptainPic",
+          "dialogue": "Ah very good, return to me when you have sorted out this little problem.",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        },
+        {
+          "id": "CaptainQuestDecline_Line1",
+          "speaker" : "Captain",
+          "name": "Guard Captain",
+          "imageName": "CaptainPic",
+          "dialogue": "I see, I'll just have to deal with it later.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "CaptainQuestDecline_Line2"
+            }
+          ]
+        },
+        {
+          "id": "CaptainQuestDecline_Line2",
+          "speaker" : "Captain",
+          "name": "Guard Captain",
+          "imageName": "CaptainPic",
+          "dialogue": "Come speak to me again if you change your mind.",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "convoId": "CaptainGiveQuestConvo",
+      "dialogueItems": [
+        {
+          "id" : "START",
+          "speaker": "Captain",
+          "name" : "Captain",
+          "imageName" : "CaptainPic",
+          "dialogue" : "Chester is still making a noise outside of the bank. Get him to quiet down and you will be rewarded.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "CaptainGiveQuestConvo_Line2"
+            }
+          ]
+        },
+        {
+          "id" : "CaptainGiveQuestConvo_Line2",
+          "speaker": "Captain",
+          "name" : "Captain",
+          "imageName" : "CaptainPic",
+          "dialogue" : "What do you say? Can you help me out?",
+          "options": [
+            {
+              "text": "Yes",
+              "linkID": "CaptainGiveQuestConvo_QuestAccept"
+            },
+            {
+              "text": "No",
+              "linkID": "CaptainGiveQuestConvo_QuestDecline"
+            }
+          ]
+        },
+        {
+          "id" : "CaptainGiveQuestConvo_QuestAccept",
+          "speaker": "Kane",
+          "name" : "Kane",
+          "imageName" : "KanePic",
+          "dialogue" : "Alright, I'll see if I can sort it out.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "CaptainGiveQuestConvo_QuestAccept_Line2"
+            }
+          ]
+        },
+        {
+          "id" : "CaptainGiveQuestConvo_QuestAccept_Line2",
+          "speaker": "Captain",
+          "name" : "Captain",
+          "imageName" : "CaptainPic",
+          "dialogue" : "Brilliant! Return to me when you are finished.",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        },
+        {
+          "id" : "CaptainGiveQuestConvo_QuestDecline",
+          "speaker": "Kane",
+          "name" : "Kane",
+          "imageName" : "KanePic",
+          "dialogue" : "I can't right now.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "CaptainGiveQuestConvo_QuestDecline_Line2"
+            }
+          ]
+        },
+        {
+          "id" : "CaptainGiveQuestConvo_QuestDecline_Line2",
+          "speaker": "Captain",
+          "name" : "Captain",
+          "imageName" : "CaptainPic",
+          "dialogue" : "Alright, talk to me again if you change your mind.",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "convoId": "CaptainQuestCompletedConvo",
+      "dialogueItems": [
+        {
+          "id" : "START",
+          "speaker": "Captain",
+          "name" : "Captain",
+          "imageName" : "CaptainPic",
+          "dialogue" : "Ah I see that you finally got Chester to keep quiet! What a task that must have been.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "CaptainQuestCompletedConvo_Line2"
+            }
+          ]
+        },
+        {
+          "id" : "CaptainQuestCompletedConvo_Line2",
+          "speaker": "Captain",
+          "name" : "Captain",
+          "imageName" : "CaptainPic",
+          "dialogue" : "As promised, here is your reward.",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "convoId": "CaptainIdleLine",
+      "dialogueItems": [
+        {
+          "id" : "START",
+          "speaker": "Captain",
+          "name" : "Captain",
+          "imageName" : "CaptainPic",
+          "dialogue" : "I can't talk now. I have way too much work to do.",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "convoId": "ChesterConvo",
+      "dialogueItems": [
+        {
+          "id": "START",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "FOR TOO LONG THIS CITY HAS PREYED ON THE WEAK TO FEED THE STRONG!",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterConvo_Line2"
+            }
+          ]
+        },
+        {
+          "id": "ChesterConvo_Line2",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "STAND WITH ME, FRIENDS, TO FREE US FROM THE CLUTCHES OF OUR CORRUPTED MAYOR!",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterConvo_Line3"
+            }
+          ]
+        },
+        {
+          "id": "ChesterConvo_Line3",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "You there! You are new around here right?",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterConvo_Line4"
+            }
+          ]
+        },
+        {
+          "id": "ChesterConvo_Line4",
+          "speaker" : "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "I am. The Captain sent me to speak with you.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterConvo_Line5"
+            }
+          ]
+        },
+        {
+          "id": "ChesterConvo_Line5",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "So the Captain is now relying on strangers to do his dirty work. Disgraceful.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterConvo_Line6"
+            }
+          ]
+        },
+        {
+          "id": "ChesterConvo_Line6",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "I imagine he wants you to shut me up. Well you can hop back and tell him where to stick it.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterConvo_Line7"
+            }
+          ]
+        },
+        {
+          "id": "ChesterConvo_Line7",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "For too long those with power have tried to silence the rest of us! I will allow it no longer!",
+          "options": [
+            {
+              "text": "Question him",
+              "linkID": "ChesterConvo_Line8"
+            },
+            {
+              "text": "Cut to the chase",
+              "linkID": "ChesterConvo_Line9"
+            }
+          ]
+        },
+        {
+          "id": "ChesterConvo_Line8",
+          "speaker" : "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "Silence you?",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterConvo_Line10"
+            }
+          ]
+        },
+        {
+          "id": "ChesterConvo_Line9",
+          "speaker" : "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "I am beginning to understand why. Look, the Captain sent me to do a task, and I will make sure that it is completed.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterConvo_Line11"
+            }
+          ]
+        },
+        {
+          "id": "ChesterConvo_Line10",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "Yes! Look around you! See those dull looking chests over there. The rich don't care about Ewtopians like them... Ewtopians like me.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterConvo_Line12"
+            }
+          ]
+        },
+        {
+          "id": "ChesterConvo_Line11",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "How about this, I have a counter-offer for you. You will help me out if there is still some good left in you.",
+          "options": [
+            {
+              "text": "What offer?",
+              "linkID": "ChesterConvo_Line13"
+            },
+            {
+              "text": "I'm not interested.",
+              "linkID": "ChesterConvo_Line14"
+            }
+          ]
+        },
+        {
+          "id": "ChesterConvo_Line12",
+          "speaker" : "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "What causes you to look like that?",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterConvo_Line15"
+            }
+          ]
+        },
+        {
+          "id": "ChesterConvo_Line13",
+          "speaker" : "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "Alright, I'm listening.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterConvo_QuestAccept"
+            }
+          ]
+        },
+        {
+          "id": "ChesterConvo_Line14",
+          "speaker" : "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "Do I look like a task boy? Sort it out by yourself.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterConvo_QuestDecline"
+            }
+          ]
+        },
+        {
+          "id": "ChesterConvo_Line15",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "You see, when a Ewtopian has nothing left, not even a house to live in, we start to dull. It is the mark of the 'Unlikeables'.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterConvo_Line16"
+            }
+          ]
+        },
+        {
+          "id": "ChesterConvo_Line16",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "Everybody in the city ignores us, we never get the help that we need.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterConvo_Line17"
+            }
+          ]
+        },
+        {
+          "id": "ChesterConvo_Line17",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "But I have a plan to change that. However, I cannot do it on my own. Are you willing to help me?",
+          "options": [
+            {
+              "text": "Yes",
+              "linkID": "ChesterConvo_Line18"
+            },
+            {
+              "text": "No",
+              "linkID": "ChesterConvo_Line19"
+            }
+          ]
+        },
+        {
+          "id": "ChesterConvo_Line18",
+          "speaker" : "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "I'm in. What do you need from me?",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterConvo_QuestAccept"
+            }
+          ]
+        },
+        {
+          "id": "ChesterConvo_QuestAccept",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "Splendid! The mayor has a shipment of change coming in today. I can't get anywhere near him looking like this, but you look so bright and vibrant!",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterConvo_QuestAccept_Line2"
+            }
+          ]
+        },
+        {
+          "id": "ChesterConvo_QuestAccept_Line2",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "A delivery man is supposed to collect the coins from him to take to the bank. Pretend to be the delivery man and speak to the mayor. I will make sure the real one never reaches him.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterConvo_QuestAccept_Line3"
+            }
+          ]
+        },
+        {
+          "id": "ChesterConvo_QuestAccept_Line3",
+          "speaker" : "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "That seems easy enough, I will get you those coins.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterConvo_QuestAccept_Line4"
+            }
+          ]
+        },
+        {
+          "id": "ChesterConvo_QuestAccept_Line4",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "Oh, there is one last thing you should know. The mayor always uses a secret password during these deliveries.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterConvo_QuestAccept_Line5"
+            }
+          ]
+        },
+        {
+          "id": "ChesterConvo_QuestAccept_Line5",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "Lucky for you, I have overheard them using the password before. If the mayor asks you, the password is 'furtive'",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterConvo_QuestAccept_Line6"
+            }
+          ]
+        },
+        {
+          "id": "ChesterConvo_QuestAccept_Line6",
+          "speaker" : "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "Furtive, got it.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterConvo_QuestAccept_Line7"
+            }
+          ]
+        },
+        {
+          "id": "ChesterConvo_QuestAccept_Line7",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "Godspeed my friend",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        },
+        {
+          "id": "ChesterConvo_Line19",
+          "speaker" : "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "No, I can't help you right now.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterConvo_QuestDecline"
+            }
+          ]
+        },
+        {
+          "id": "ChesterConvo_QuestDecline",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "I see. This tells me a lot about who you really are.",
+          "options": [
+            {
+              "text": "Goodbye",
+              "linkID": "ChesterConvo_QuestDecline_Line2"
+            },
+            {
+              "text": "Captain",
+              "linkID": "ChesterConvo_QuestDecline_Line3"
+            }
+          ]
+        },
+        {
+          "id": "ChesterConvo_QuestDecline_Line2",
+          "speaker" : "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "Well I'm done here. I must get going.",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        },
+        {
+          "id": "ChesterConvo_QuestDecline_Line3",
+          "speaker" : "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "Yes, I am someone who does what they have said they will do.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterConvo_QuestDecline_Line4"
+            }
+          ]
+        },
+        {
+          "id": "ChesterConvo_QuestDecline_Line4",
+          "speaker" : "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "Now you will shut your lid and move away from this area or I will be forced to use less passive methods.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterConvo_QuestDecline_Line5"
+            }
+          ]
+        },
+        {
+          "id": "ChesterConvo_QuestDecline_Line5",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "Okay buddy, calm down. Have it your way. I'll move.",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "convoId": "ChesterGiveQuestConvo",
+      "dialogueItems": [
+        {
+          "id": "START",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "Ah it's you again.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterGiveQuestConvo_Line2"
+            }
+          ]
+        },
+        {
+          "id": "ChesterGiveQuestConvo_Line2",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "My offer still stands.",
+          "options": [
+            {
+              "text": "Offer",
+              "linkID": "ChesterGiveQuestConvo_QuestOffer"
+            },
+            {
+              "text": "Captain",
+              "linkID": "ChesterGiveQuestConvo_Captain"
+            }
+          ]
+        },
+        {
+          "id": "ChesterGiveQuestConvo_Captain",
+          "speaker" : "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "On behalf of the captain, I would like you to stop your shouting and move away from this area.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterGiveQuestConvo_Captain_Line2"
+            }
+          ]
+        },
+        {
+          "id": "ChesterGiveQuestConvo_Captain_Line2",
+          "speaker" : "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "If you do not comply with this, I could use more extreme measures... and you definitely don't want that.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterGiveQuestConvo_Captain_Line3"
+            }
+          ]
+        },
+        {
+          "id": "ChesterGiveQuestConvo_Captain_Line3",
+          "speaker": "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "You are just like everybody else, always silencing the helpless.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterGiveQuestConvo_Captain_Line4"
+            }
+          ]
+        },
+        {
+          "id": "ChesterGiveQuestConvo_Captain_Line4",
+          "speaker": "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "Fine, have it your way, I'll move. I hope that you are happy with your decision.",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        },
+        {
+          "id": "ChesterGiveQuestConvo_QuestOffer",
+          "speaker" : "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "Tell me about this offer.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterGiveQuestConvo_QuestOffer_Line2"
+            }
+          ]
+        },
+        {
+          "id": "ChesterGiveQuestConvo_QuestOffer_Line2",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "It involves stealing from the mayor, it could be very profitable for both of us. Are you willing to help me out?",
+          "options": [
+            {
+              "text": "Yes",
+              "linkID": "ChesterGiveQuestConvo_QuestAccepted"
+            },
+            {
+              "text": "No",
+              "linkID": "ChesterGiveQuestConvo_QuestDeclined"
+            }
+          ]
+        },
+        {
+          "id": "ChesterGiveQuestConvo_QuestAccepted",
+          "speaker" : "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "I'm in. What do you need from me?",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterGiveQuestConvo_QuestAccepted_Line2"
+            }
+          ]
+        },
+        {
+          "id": "ChesterGiveQuestConvo_QuestAccepted_Line2",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "Splendid! The mayor has a shipment of change coming in today. I can't get anywhere near him looking like this, but you look so bright and vibrant!",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterGiveQuestConvo_QuestAccepted_Line3"
+            }
+          ]
+        },
+        {
+          "id": "ChesterGiveQuestConvo_QuestAccepted_Line3",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "A delivery man is supposed to collect the coins from him to take to the bank. Pretend to be the delivery man and speak to the mayor. I will make sure the real one never reaches him.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterGiveQuestConvo_QuestAccepted_Line4"
+            }
+          ]
+        },
+        {
+          "id": "ChesterGiveQuestConvo_QuestAccepted_Line4",
+          "speaker" : "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "That seems easy enough, I will get you those coins.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterGiveQuestConvo_QuestAccepted_Line5"
+            }
+          ]
+        },
+        {
+          "id": "ChesterGiveQuestConvo_QuestAccepted_Line5",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "Oh, there is one last thing you should know. The mayor always uses a secret password during these deliveries.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterGiveQuestConvo_QuestAccepted_Line6"
+            }
+          ]
+        },
+        {
+          "id": "ChesterGiveQuestConvo_QuestAccepted_Line6",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "Lucky for you, I have overheard them using the password before. If the mayor asks you, the password is 'furtive'",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterGiveQuestConvo_QuestAccepted_Line7"
+            }
+          ]
+        },
+        {
+          "id": "ChesterGiveQuestConvo_QuestAccepted_Line7",
+          "speaker" : "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "Furtive, got it.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterGiveQuestConvo_QuestAccepted_Line8"
+            }
+          ]
+        },
+        {
+          "id": "ChesterGiveQuestConvo_QuestAccepted_Line8",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "Godspeed my friend",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        },
+        {
+          "id": "ChesterGiveQuestConvo_QuestDeclined",
+          "speaker" : "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "Not right now",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterGiveQuestConvo_QuestDeclined_Line2"
+            }
+          ]
+        },
+        {
+          "id": "ChesterGiveQuestConvo_QuestDeclined_Line2",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "I see. Come speak to me again if you change your mind.",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "convoId": "ChesterQuestFailedConvo",
+      "dialogueItems": [
+        {
+          "id": "START",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "I heard that someone tried to steal from the mayor. I'm guessing you couldn't complete the task.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterQuestFailedConvo_Line2"
+            }
+          ]
+        },
+        {
+          "id": "ChesterQuestFailedConvo_Line2",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "Oh well, I'm going to have to think of another way to help my people.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterQuestFailedConvo_Line3"
+            }
+          ]
+        },
+        {
+          "id": "ChesterQuestFailedConvo_Line3",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "At least you tried. Goodbye for now.",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "convoId": "ChesterWaitingForQuest",
+      "dialogueItems": [
+        {
+          "id": "START",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "Go speak to the mayor and bring me back some of those coins!",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "convoId": "ChesterHostileLine",
+      "dialogueItems": [
+        {
+          "id": "START",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "Oh, it's you... I have nothing to say to you.",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "convoId": "ChesterIdleConvo1",
+      "dialogueItems": [
+        {
+          "id": "START",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "WHEN WILL YOU ALL OPEN YOUR EYES AND SEE WHAT OUR SOCIETY HAS BECOME?",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "convoId": "ChesterIdleConvo2",
+      "dialogueItems": [
+        {
+          "id": "START",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "LOOK AROUND YOU! THIS CITY IS DYING! OUR MAYOR HAS FAILED US",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "convoId": "ChesterIdleConvo3",
+      "dialogueItems": [
+        {
+          "id": "START",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "WE NEED TO STAND TOGETHER AGAINST THIS INJUSTICE!",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "convoId": "ChesterQuestedCompleted",
+      "dialogueItems": [
+        {
+          "id": "START",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "You got the change! I never doubted you for a second!",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterQuestedCompleted_Line2"
+            }
+          ]
+        },
+        {
+          "id": "ChesterQuestedCompleted_Line2",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "I'll tell you what, since you did all of the heavy lifting, I'll let you keep two thirds of the profit.",
+          "options": [
+            {
+              "text": "No, I'll take it all",
+              "linkID": "ChesterQuestedCompleted_KeptChange"
+            },
+            {
+              "text": "Change",
+              "linkID": "ChesterQuestedCompleted_GaveChange",
+              "requiredItem": "change"
+            }
+          ]
+        },
+        {
+          "id": "ChesterQuestedCompleted_GaveChange",
+          "speaker" : "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "Here you go.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterQuestedCompleted_GaveChange_Line2"
+            }
+          ]
+        },
+        {
+          "id": "ChesterQuestedCompleted_GaveChange_Line2",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "If you are looking to do some more good, you could give some of those remaining coins to a few of the other Unlikeables.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterQuestedCompleted_GaveChange_Line3"
+            }
+          ]
+        },
+        {
+          "id": "ChesterQuestedCompleted_GaveChange_Line3",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "Or you could keep it for yourself. It's up to you.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterQuestedCompleted_GaveChange_Line4"
+            }
+          ]
+        },
+        {
+          "id": "ChesterQuestedCompleted_GaveChange_Line4",
+          "speaker" : "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "It was a pleasure doing business with you.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterQuestedCompleted_GaveChange_Line5"
+            }
+          ]
+        },
+        {
+          "id": "ChesterQuestedCompleted_GaveChange_Line5",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "Farewell my friend.",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        },
+        {
+          "id": "ChesterQuestedCompleted_KeptChange",
+          "speaker" : "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "On second thought, I think I should hold onto these. I did in fact do all of the risky work.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterQuestedCompleted_KeptChange_Line2"
+            }
+          ]
+        },
+        {
+          "id": "ChesterQuestedCompleted_KeptChange_Line2",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "How did I not see this coming? You are all the same.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterQuestedCompleted_KeptChange_Line3"
+            }
+          ]
+        },
+        {
+          "id": "ChesterQuestedCompleted_KeptChange_Line3",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "The cycle continues. The rich get richer while we rot away on the side.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterQuestedCompleted_KeptChange_Line4"
+            }
+          ]
+        },
+        {
+          "id": "ChesterQuestedCompleted_KeptChange_Line4",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "People like you will never help people like me. That is why this society will never change.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterQuestedCompleted_KeptChange_Line5"
+            }
+          ]
+        },
+        {
+          "id": "ChesterQuestedCompleted_KeptChange_Line5",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "So keep your riches and enjoy your comfort. Never forget about me, this decision will stay with you for the rest of your life.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "ChesterQuestedCompleted_KeptChange_Line6"
+            }
+          ]
+        },
+        {
+          "id": "ChesterQuestedCompleted_KeptChange_Line6",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "I know it will stay with me.",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "convoId": "ChesterHappyLine",
+      "dialogueItems": [
+        {
+          "id": "START",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "Good day friend! I do hope that you have been using those coins for good!",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "convoId": "ChesterAngryLine",
+      "dialogueItems": [
+        {
+          "id": "START",
+          "speaker" : "Chester",
+          "name": "Chester",
+          "imageName": "ChesterPic",
+          "dialogue": "I was hoping never to see you again. It seems my luck keeps getting worse.",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "convoId": "MayorConvo1",
+      "dialogueItems": [
+        {
+          "id": "START",
+          "speaker" : "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "Hello Mr. Mayor.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "MayorConvo1_Line2"
+            }
+          ]
+        },
+        {
+          "id": "MayorConvo1_Line2",
+          "speaker" : "Mayor",
+          "name": "Mayor",
+          "imageName": "MayorPic",
+          "dialogue": "And who might you be?",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "MayorConvo1_Line3"
+            }
+          ]
+        },
+        {
+          "id": "MayorConvo1_Line3",
+          "speaker" : "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "I'm here to deliver the coins to the bank.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "MayorConvo1_Line4"
+            }
+          ]
+        },
+        {
+          "id": "MayorConvo1_Line4",
+          "speaker" : "Mayor",
+          "name": "Mayor",
+          "imageName": "MayorPic",
+          "dialogue": "Ah, I see. Is Clarence not feeling well today?",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "MayorConvo1_Line5"
+            }
+          ]
+        },
+        {
+          "id": "MayorConvo1_Line5",
+          "speaker" : "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "Yeah, I am his replacement.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "MayorConvo1_Password"
+            }
+          ]
+        },
+        {
+          "id": "MayorConvo1_Password",
+          "speaker" : "Mayor",
+          "name": "Mayor",
+          "imageName": "MayorPic",
+          "dialogue": "Replacement you say... Do you know the secret code?",
+          "options": [
+            {
+              "text": "Furtive",
+              "linkID": "MayorConvo1_PasswordCorrect"
+            },
+            {
+              "text": "Secret Code?",
+              "linkID": "MayorConvo1_PasswordWrong"
+            }
+          ]
+        },
+        {
+          "id": "MayorConvo1_PasswordCorrect",
+          "speaker" : "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "The passcode is Furtive",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "MayorConvo1_PasswordCorrect_Line2"
+            }
+          ]
+        },
+        {
+          "id": "MayorConvo1_PasswordCorrect_Line2",
+          "speaker" : "Mayor",
+          "name": "Mayor",
+          "imageName": "MayorPic",
+          "dialogue": "Very good. Take care when transporting these coins please, they are very valuable.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "MayorConvo1_PasswordCorrect_Line3"
+            }
+          ]
+        },
+        {
+          "id": "MayorConvo1_PasswordCorrect_Line3",
+          "speaker" : "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "Will do.",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        },
+        {
+          "id": "MayorConvo1_PasswordWrong",
+          "speaker" : "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "What secret code?",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "MayorConvo1_PasswordWrong_Line2"
+            }
+          ]
+        },
+        {
+          "id": "MayorConvo1_PasswordWrong_Line2",
+          "speaker" : "Mayor",
+          "name": "Mayor",
+          "imageName": "MayorPic",
+          "dialogue": "AHA! I knew that you weren't the delivery boy! I should have you arrested on the spot!",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "MayorConvo1_PasswordWrong_Line3"
+            }
+          ]
+        },
+        {
+          "id": "MayorConvo1_PasswordWrong_Line3",
+          "speaker" : "Mayor",
+          "name": "Mayor",
+          "imageName": "MayorPic",
+          "dialogue": "Leave here at once and don't ever try something like that again!",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "convoId": "MayorHappyConvo",
+      "dialogueItems": [
+        {
+          "id": "START",
+          "speaker" : "Mayor",
+          "name": "Mayor",
+          "imageName": "MayorPic",
+          "dialogue": "Ah it's the delivery boy! I assume my package arrived safely at the bank.",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "convoId": "MayorAngryConvo",
+      "dialogueItems": [
+        {
+          "id": "START",
+          "speaker" : "Mayor",
+          "name": "Mayor",
+          "imageName": "MayorPic",
+          "dialogue": "The thief is back. Get out of my sight before I call the guard.",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "convoId": "MayorIdleConvo",
+      "dialogueItems": [
+        {
+          "id": "START",
+          "speaker" : "Mayor",
+          "name": "Mayor",
+          "imageName": "MayorPic",
+          "dialogue": "Not now, I don't have time for silly conversation.",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "convoId": "UnlikeableConvo",
+      "dialogueItems": [
+        {
+          "id": "START",
+          "speaker" : "Unlikeable",
+          "name": "Unlikeable",
+          "imageName": "UnlikeablePic",
+          "dialogue": "I have been like this for so long, I have forgotten what it feels like to be normal.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "UnlikeableConvo_Line2"
+            }
+          ]
+        },
+        {
+          "id": "UnlikeableConvo_Line2",
+          "speaker" : "Unlikeable",
+          "name": "Unlikeable",
+          "imageName": "UnlikeablePic",
+          "dialogue": "Is there something you wanted to ask me?",
+          "options": [
+            {
+              "text": "Nothing",
+              "linkID": "UnlikeableConvo_Line3"
+            },
+            {
+              "text": "Change",
+              "linkID": "UnlikeableConvo_GaveChange",
+              "requiredItem" : "change"
+            }
+          ]
+        },
+        {
+          "id": "UnlikeableConvo_Line3",
+          "speaker" : "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "No, nothing. I'd best be going.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "UnlikeableConvo_Line4"
+            }
+          ]
+        },
+        {
+          "id": "UnlikeableConvo_Line4",
+          "speaker" : "Unlikeable",
+          "name": "Unlikeable",
+          "imageName": "UnlikeablePic",
+          "dialogue": "Have a pleasant day!",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        },
+        {
+          "id": "UnlikeableConvo_GaveChange",
+          "speaker" : "Kane",
+          "name": "Kane",
+          "imageName": "KanePic",
+          "dialogue": "I wanted to give you this.",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "UnlikeableConvo_GaveChange_Line2"
+            }
+          ]
+        },
+        {
+          "id": "UnlikeableConvo_GaveChange_Line2",
+          "speaker" : "Unlikeable",
+          "name": "Unlikeable",
+          "imageName": "UnlikeablePic",
+          "dialogue": "I can't believe my eyes! Thank you so much stranger!",
+          "options": [
+            {
+              "text": "Next",
+              "linkID": "UnlikeableConvo_GaveChange_Line3"
+            }
+          ]
+        },
+        {
+          "id": "UnlikeableConvo_GaveChange_Line3",
+          "speaker" : "Unlikeable",
+          "name": "Unlikeable",
+          "imageName": "UnlikeablePic",
+          "dialogue": "Your kindness shall not soon be forgotten. Have a wonderful day!",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "convoId": "UnlikeableThankfulLine",
+      "dialogueItems": [
+        {
+          "id": "START",
+          "speaker" : "Unlikeable",
+          "name": "Unlikeable",
+          "imageName": "UnlikeablePic",
+          "dialogue": "Hello kind stranger! You have no idea how much you have helped me!",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "convoId": "CitizenLine",
+      "dialogueItems": [
+        {
+          "id": "START",
+          "speaker" : "Citizen",
+          "name": "Citizen",
+          "imageName": "CitizenPic",
+          "dialogue": "Watch out for those Unlikeables, nasty bunch they are.",
+          "options": [
+            {
+              "text": "Continue",
+              "linkID": "CLOSE"
+            }
+          ]
+        }
+      ]
+    }
+
+  ]
+}

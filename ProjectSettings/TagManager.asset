@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - PlayerChest
+  - goldcoin
+  - woodencoin
+  - silver
+  - change
+  - platinum
+  - humphrey
+  - box
+  - captain
+  - mayor
+  - gilbert
+  - chester
+  - captainChange
+  - change1
+  - change2
+  - change3
+  - inputArea
+  - unlikeable
+  - citizen
+  - testGraph
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - NavClick
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
